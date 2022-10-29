@@ -1,12 +1,24 @@
 # heroku-buildpack-racket
 
+Sat October 2022 latest version of racket is 8.6-cs
+
+
+
 This is a custom [Heroku buildpack][heroku-buildpacks] for building and deploying [Racket][racket] applications on [Heroku][heroku].
+
+To clear old buildpacks
+
+```sh
+$ heroku buildpacks:clear
+```
+
 
 To use this custom buildpack, use the Heroku toolbelt's `buildpacks:set` command:
 
 ```sh
-$ heroku buildpacks:set https://github.com/lexi-lambda/heroku-buildpack-racket
+$ heroku buildpacks:set https://github.com/terryc321/heroku-buildpack-racket
 ```
+
 
 When the application is next deployed, the new buildpack will be used.
 
