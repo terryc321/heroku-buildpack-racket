@@ -2,6 +2,17 @@
 
 Sat October 2022 latest version of racket is 8.6-cs
 
+https://download.racket-lang.org/installers/8.6/racket-8.6-x86_64-linux-cs.sh
+
+After some search we found a minimal installer for 8.6 using linux 64 bit , 31 megs
+
+sha256 50876087f086beeca05e052c5af4ed9993ccf623c870fe6d785889d24778037f
+
+
+https://download.racket-lang.org/releases/8.6/installers/racket-minimal-8.6-x86_64-linux-cs.sh
+
+This shell script asks questions yes / no .
+
 
 
 This is a custom [Heroku buildpack][heroku-buildpacks] for building and deploying [Racket][racket] applications on [Heroku][heroku].
